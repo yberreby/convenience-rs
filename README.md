@@ -2,15 +2,14 @@
 
 Useful stuff that isn't in std.
 
-Currently there isn't much to see there (just a few file I/O functions), but
-I'll happily accept PRs for more convenience methods.
+Currently there isn't much to see there apart from a few file I/O functions.
 
 This is somewhat inspired by what I saw of Go's rich standard library, but I
-don't know much Go so take this with a grain of salt.
+only took a quick look at it so take this with a grain of salt.
 
 If you need to do something substantially more complex than what if possible
-with this crate's API, chances are you really want to use the `standard library`
-directly instead.
+with this crate's API, chances are you really want to use the [`standard
+library`](https://doc.rust-lang.org/std/) directly instead of this crate.
 
 ## Motivation
 
