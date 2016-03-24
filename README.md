@@ -1,4 +1,4 @@
-# convenience - Convenient Rust
+# convenience
 
 Useful stuff that isn't in std.
 
