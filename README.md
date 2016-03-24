@@ -2,11 +2,15 @@
 
 Useful stuff that isn't in std.
 
-Currently there isn't much to see there, but I'll happily accept PRs for more
-convenience methods.
+Currently there isn't much to see there (just a few file I/O functions), but
+I'll happily accept PRs for more convenience methods.
 
 This is somewhat inspired by what I saw of Go's rich standard library, but I
 don't know much Go so take this with a grain of salt.
+
+If you need to do something substantially more complex than what if possible
+with this crate's API, chances are you really want to use the `standard library`
+directly instead.
 
 ## Motivation
 
@@ -36,11 +40,11 @@ sometimes you want something that is more rigid but also simpler.
 Implemented:
 
 - `read_file(path)`
+- `write_file(path, contents)`
 
 To do:
 
 - (maybe) `random_string(len)`
-- `write_file(path, contents, permissions)`
 
 ## What goes here
 
