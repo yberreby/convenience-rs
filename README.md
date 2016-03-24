@@ -1,11 +1,12 @@
 # convenience - Convenient Rust
 
-Useful stuff that isn't in std (and shouldn't be) because it's less flexible.
-Somewhat inspired by what I saw of Go's rich standard library, but I don't know
-much Go so take this with a grain of salt.
+Useful stuff that isn't in std.
 
 Currently there isn't much to see there, but I'll happily accept PRs for more
 convenience methods.
+
+This is somewhat inspired by what I saw of Go's rich standard library, but I
+don't know much Go so take this with a grain of salt.
 
 ## Motivation
 
