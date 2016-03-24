@@ -2,6 +2,9 @@
 authors = ["Yohai Berreby (yberreby) <yohaiberreby@gmail.com>"]
 name = "convenience"
 version = "0.1.0"
+readme = "README.md"
+repository = "https://github.com/yberreby/convenience-rs"
+license = "MIT"
 
 [dependencies]
 quick-error = "1.0.0"
